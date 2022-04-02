@@ -7,6 +7,15 @@ namespace modul6_kelompok_bluerecandy
 		static void Main(string[] args)
 		{
 
+      DataMahasiswa1302204069 dm = new DataMahasiswa1302204069();
+      dm.ReadJSON();
+
+      TeamMembers1302204069 tm = new TeamMembers1302204069();
+      tm.ReadJSON();
+
+      GlossaryItem1302204069 gi = new GlossaryItem1302204069();
+      gi.ReadJSON();
+
 			DataMahasiswa_1302204066 data = new DataMahasiswa_1302204066();
 			data.ReadJSON();
 			TeamMembers_1302204066 data2 = new TeamMembers_1302204066();
@@ -22,7 +31,7 @@ namespace modul6_kelompok_bluerecandy
 
 			GlossaryItem1302204090 g = new GlossaryItem1302204090();
 			g.ReadJSON();
-
+      
 		}
 	}
 }
