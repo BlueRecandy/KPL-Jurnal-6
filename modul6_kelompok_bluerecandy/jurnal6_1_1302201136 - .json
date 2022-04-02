@@ -1,0 +1,33 @@
+{
+   "firstName": "Juanda",
+   "lastName": "Sinurat",
+   "gender": "male",
+   "age": 21,
+   "address": {
+       "streetAddress": "Pematang Siantar",
+       "city": "Medan",
+       "state": "North Sumatera"
+   },
+  "courses": [
+    {
+      "code": "CRI2C4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CRI2P3",
+      "name": "Pemrograman Berbasis Objek"
+    },
+    {
+      "code": "CRI2B2",
+      "name": "Basis Data"
+    },
+    {
+      "code": "CRI2A3",
+      "name": "Kecerdasan Buatan"
+    },
+    {
+      "code": "CRI2C3",
+      "name": "Organisasi dan Arsitektur Komputer"
+    }
+  ]
+}
