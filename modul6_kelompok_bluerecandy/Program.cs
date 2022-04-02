@@ -8,6 +8,9 @@ namespace modul6_kelompok_bluerecandy
 		{
 			DataMahasiswa_1302204066 data = new DataMahasiswa_1302204066();
 			data.ReadJSON();
+
+			TeamMembers_1302204066 data2 = new TeamMembers_1302204066();
+			data2.ReadJSON();
 		}
 	}
 }

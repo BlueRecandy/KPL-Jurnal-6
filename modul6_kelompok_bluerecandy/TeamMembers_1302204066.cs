@@ -13,18 +13,19 @@ namespace modul6_kelompok_bluerecandy
         private string GetJsonPath => Path.GetFullPath(Directory.GetCurrentDirectory() + "/../../../jurnal6_2_1302204066.json");
         public void ReadJSON()
         {
-            var jsonFile = File.OpenText(GetJsonPath);
-            var json = JsonSerializer.Deserialize<IEnumerable<Dictionary<string, dynamic>>>(jsonFile.ReadToEnd(), new JsonSerializerOptions()
-            {
-                WriteIndented = true,
-            });
+            var file = File.OpenText(GetJsonPath);
+            JsonElement json = JsonSerializer.Deserialize<JsonElement>(file.ReadToEnd());
 
-            int count = 1;
-            Console.WriteLine("Daftar mata kuliah yang diambil:");
-            foreach (var mk in json)
+            Console.WriteLine("\nTeam member:");
+            JsonElement members = json.GetProperty("members");
+
+            foreach (JsonElement member in members.EnumerateArray())
             {
-                Console.WriteLine($"MK{count} {mk["kode_mk"]} - {mk["nama_mk"]}");
-                count++;
+                
+                Console.WriteLine($"Name\t: {member.GetProperty("firstName")} {member.GetProperty("lastName")} ");
+                Console.WriteLine($"Nim\t: {member.GetProperty("nim")} ");
+                Console.WriteLine($"Gender\t: {member.GetProperty("gender")} ");
+                Console.WriteLine($"Age\t: {member.GetProperty("age")}\n");
             }
         }
     }
