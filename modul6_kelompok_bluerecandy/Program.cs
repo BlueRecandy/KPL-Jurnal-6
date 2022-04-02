@@ -6,7 +6,9 @@ namespace modul6_kelompok_bluerecandy
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			// Demo data mahasiswa 1302204090
+			DataMahasiswa1302204090 d = new DataMahasiswa1302204090();
+			d.ReadJSON();
 		}
 	}
 }
