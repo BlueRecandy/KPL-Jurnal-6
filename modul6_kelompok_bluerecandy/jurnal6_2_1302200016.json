@@ -1,0 +1,46 @@
+{
+  "members": [
+    {
+      "firstName": "Ahmad Fathan",
+      "lastName": "Hanif",
+      "gender": "Laki - Laki",
+      "age": 19,
+      "nim": "1302204090"
+    },
+    {
+      "firstName": "Bayu Evri",
+      "lastName": "Saputra",
+      "gender": "Laki - Laki",
+      "age": 19,
+      "nim": "1302204069"
+    },
+    {
+      "firstName": "Muhammad Iqbal",
+      "lastName": "Faturohman",
+      "gender": "Laki - Laki",
+      "age": 20,
+      "nim": "1302200016"
+    },
+    {
+      "firstName": "Juanda",
+      "lastName": "Sinurat",
+      "gender": "male",
+      "age": 19,
+      "nim": "1302201136"
+    },
+    {
+      "firstName": "Mohammad",
+      "lastName": "Lutfi",
+      "gender": "male",
+      "age": 19,
+      "nim": "1302204066"
+    },
+    {
+      "firstName": "Defrizal Cahyono",
+      "lastName": "Putro",
+      "gender": "male",
+      "age": 22,
+      "nim": "1302200102"
+    }
+  ]
+}

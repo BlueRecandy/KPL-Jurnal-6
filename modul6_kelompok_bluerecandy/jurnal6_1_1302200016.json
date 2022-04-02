@@ -1,0 +1,37 @@
+{
+  "firstName": "Muhamad Iqbal",
+  "lastName": "Faturohman",
+  "gender": "male",
+  "age": 20,
+  "address": {
+    "streetAddress": "Kp. Pasarean RT 04 RW 07",
+    "city": "Bandung",
+    "state": "West Java"
+  },
+  "courses": [
+    {
+      "code": "CRI2C4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CII2B4",
+      "name": "Struktur Data"
+    },
+    {
+      "code": "CRI2F2",
+      "name": "Proyek Tingkai II"
+    },
+    {
+      "code": "CII2A3",
+      "name": "Organisasi Dan Arsitektur Komputer"
+    },
+    {
+      "code": "CRI2D3",
+      "name": "Kecerdasan Buatan"
+    },
+    {
+      "code": "CRI2E4",
+      "name": "Basis Data"
+    }
+  ]
+}
