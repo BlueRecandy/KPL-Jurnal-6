@@ -1,0 +1,25 @@
+{
+  "members" : [
+    {
+       "firstName": "Ahmad Fathan",
+       "lastName": "Hanif",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302204090"
+    },
+    {
+       "firstName": "Mohamad",
+       "lastName": "Lutfi",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302204066"
+    },
+    {
+       "firstName": "Juanda",
+       "lastName": "Sinurat",
+       "gender": "male",
+       "age": 23,
+       "nim": "1302201136"
+    }
+  ]
+}
