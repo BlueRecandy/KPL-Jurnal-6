@@ -1,0 +1,40 @@
+{
+  "members" : [
+    {
+      {
+        "firstName": "bayuevrisaputra",
+        "lastName": "bayu",
+        "gender": "male",
+        "age": 20,
+        "nim": "1302204069"
+      },
+      {
+        "firstName": "ahmad fathan hanif",
+        "lastName": "fathan",
+        "gender": "male",
+        "age": 22,
+        "nim": "1302204090"
+      },
+      {
+        "firstName": "Mohammad Iqbal",
+        "lastName": "Faturrohman",
+        "gender": "male",
+        "age": 24,
+        "nim": "1302201235"
+      },
+      {
+        "firstName": "Juanda",
+        "lastName": "Sinurat",
+        "gender": "male",
+        "age": 21,
+        "nim": "1302020202"
+      },
+      {
+        "firstName": "Mohammad",
+        "lastName": "Lutfi",
+        "gender": "male",
+        "age": 1,
+        "nim": "1302000202"
+      }
+  ]
+}

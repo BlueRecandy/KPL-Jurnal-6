@@ -1,0 +1,33 @@
+{
+  "firstName": "Ahmad Fathan",
+  "lastName": "Hanif",
+  "gender": "male",
+  "age": 20,
+  "address": {
+    "streetAddress": "Mojolaban",
+    "city": "Sukoharjo",
+    "state": "Central Java"
+  },
+  "courses": [
+    {
+      "code": "CRI2C4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CRI2P3",
+      "name": "Pemrograman Berbasis Objek"
+    },
+    {
+      "code": "CRI2B2",
+      "name": "Basis Data"
+    },
+    {
+      "code": "CRI2A3",
+      "name": "Kecerdasan Buatan"
+    },
+    {
+      "code": "CRI2C3",
+      "name": "Organisasi dan Arsitektur Komputer"
+    }
+  ]
+}
